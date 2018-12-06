@@ -1,0 +1,141 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bungee+Inline' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <style>
+    body {
+      margin: 10px;
+      background: #222;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      color: #444;
+      font-size: 2vh;
+    }
+
+    .beer {
+      color: #fff;
+      padding: 20px;
+      padding-left: 5em;
+      position: relative;
+    }
+
+    .price-wrapper {
+      position: absolute;
+      top: 3.8em;
+      left: 0.9em;
+    }
+
+    .price {
+      font-family: 'Shrikhand', cursive;
+      font-size: 1.8em;
+    }
+
+    .price::before {
+      content: '$';
+    }
+
+    .size {
+      position: absolute;
+      bottom: -0.25em;
+      right: -1em;
+      font-size: 1.1em;
+    }
+
+    .beer h1 {
+      color: #fc5;
+      color: #eee;
+      margin: 0;
+      font-size: 3em;
+      font-weight: normal;
+      font-family: 'Fredericka the Great', cursive;
+    }
+
+    .beer h2 {
+
+      font-family: 'Bungee Inline', cursive;
+      color: #eee;
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: normal;
+    }
+  </style>
+
+  <script>
+    window.beers = [{
+      title: 'Guava Gold',
+      style: 'Fruited Blonde',
+      price: 6,
+      size: '12oz',
+      price12: 5,
+      price16: 6,
+      price32: 12,
+      price64: 19
+    },{
+      title: 'Pineapple Hopline Bling',
+      style: 'IPA',
+      price: 7,
+      size: '16oz'
+    },{
+      title: 'G-Street',
+      style: 'American Blonde',
+      price: 6,
+      size: '12oz'
+    },{
+      title: 'Advanced Darkness',
+      style: 'Porter',
+      price: 8,
+      size: '6oz'
+    }]
+
+  </script>
+
+</head>
+<body>
+
+
+  <template id="beer-template">
+    <div class="beer">
+      <h1></h1>
+      <h2></h2>
+      <div class="price-wrapper">
+        <span class="price"></span>
+        <span class="size"></span>
+    </div>
+    </div>
+  </template>
+
+
+  <div id="wrapper" class="wrapper">
+
+  </div>
+
+  <script>
+    const wrapper = document.getElementById("wrapper");
+
+    const getTemplate = () => document.getElementById('beer-template').content.cloneNode(true)
+
+    const fill = template => (query, value) => template.querySelector(query).innerText = value || ''
+
+    const renderTemplate = beer => {
+      const tmpl = getTemplate()
+      const templateFill = fill(tmpl)
+
+      templateFill('h1', beer.title)
+      templateFill('h2', beer.style)
+      templateFill('.price', beer.price)
+      templateFill('.size', beer.size)
+
+      wrapper.appendChild(tmpl)
+    }
+    window.beers.forEach(renderTemplate);
+
+  </script>
+</body>
+</html>
