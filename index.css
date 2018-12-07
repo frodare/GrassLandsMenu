@@ -1,0 +1,105 @@
+body {
+  margin: 30px;
+  background: #000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  color: #444;
+  font-size: 1.7vh;
+}
+
+.beer {
+  color: #fff;
+  padding-left: 6em;
+  position: relative;
+}
+
+.price-wrapper {
+  position: absolute;
+  top: 2.5em;
+  left: -0.25em;
+  color: #fff;
+
+
+  width: 2em;
+  height: 2em;
+  padding: 0.3em;
+  border-radius: 50%;
+  background: #000;
+  border: 2px solid #fff;
+
+
+  /*
+
+  text-align: center;
+  margin-top: 0.2em;*/
+}
+
+.price {
+  position: absolute;
+  top: 0.1em;
+  left: 0.25em;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.5em;
+}
+
+.price::before {
+  content: '$';
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8em;
+}
+
+.size {
+  position: absolute;
+  bottom: -0.4em;
+  left: 0.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+}
+
+object.pint-glass-icon {
+  position: absolute;
+  top: 0.5em;
+  left: 1.2em;
+  height: 5em;
+}
+
+.beer h1 {
+  color: #eee;
+  margin: 0;
+  font-size: 3em;
+  font-weight: normal;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.beer h2 {
+  /* font-family: 'Bungee Inline', cursive;
+  font-family: 'Shrikhand', cursive; */
+  color: #eee;
+  margin: 0;
+  margin-top: -0.25em;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+
+img.main-logo {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  height: 15vh;
+}
+
+.assorted-price-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.assorted-price {
+  display: inline;
+}

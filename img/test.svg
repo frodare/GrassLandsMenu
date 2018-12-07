@@ -14,16 +14,6 @@
    height="297mm"
    width="210mm">
 
-<style type="text/css">
-  <![CDATA[
-    .beer-dark {
-      stop-color:#ff6500;
-    }
-    .beer-light {
-      stop-color:#fff800;
-    }
-  ]]>
-</style>
 
   <defs
      id="defs4295">

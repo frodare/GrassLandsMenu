@@ -5,159 +5,12 @@
     <link href='https://fonts.googleapis.com/css?family=Bungee+Inline' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+    <script type="module" src="src/colorPintGlass.js"></script>
+    <script type="module" src="src/beerData.js"></script>
 
     <!-- <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet"> -->
-  <style>
-    body {
-      margin: 30px;
-      background: #000;
-      font-family: 'Quicksand', sans-serif;
-    }
-
-    .wrapper {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-      color: #444;
-      font-size: 1.7vh;
-    }
-
-    .beer {
-      color: #fff;
-      padding-left: 6em;
-      position: relative;
-    }
-
-    .price-wrapper {
-      position: absolute;
-      top: 2.5em;
-      left: -0.25em;
-      color: #fff;
-
-
-      width: 2em;
-      height: 2em;
-      padding: 0.3em;
-      border-radius: 50%;
-      background: #000;
-      border: 2px solid #fff;
-
-
-      /*
-
-      text-align: center;
-      margin-top: 0.2em;*/
-    }
-
-    .price {
-      position: absolute;
-      top: 0.1em;
-      left: 0.25em;
-      font-family: 'Shrikhand', cursive;
-      font-size: 1.5em;
-    }
-
-    .price::before {
-      content: '$';
-      font-family: 'Quicksand', sans-serif;
-      font-size: 0.8em;
-    }
-
-    .size {
-      position: absolute;
-      bottom: -0.4em;
-      left: 0.5em;
-      font-size: 1.1em;
-      font-weight: bold;
-      color: white;
-    }
-
-    img.beer-glass {
-      position: absolute;
-      top: 0.5em;
-      left: 1.2em;
-      height: 5em;
-    }
-
-    .beer h1 {
-      color: #eee;
-      margin: 0;
-      font-size: 3em;
-      font-weight: normal;
-      font-family: 'Fredericka the Great', cursive;
-    }
-
-    .beer h2 {
-      /* font-family: 'Bungee Inline', cursive;
-      font-family: 'Shrikhand', cursive; */
-      color: #eee;
-      margin: 0;
-      font-size: 1.5em;
-      font-weight: normal;
-    }
-
-    img.main-logo {
-      position: fixed;
-      bottom: 1em;
-      left: 1em;
-      height: 15vh;
-    }
-
-    .assorted-price-wrapper {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-
-    .assorted-price {
-      display: inline;
-    }
-  </style>
-
-  <script>
-    window.beers = [{
-      title: 'Guava Gold',
-      style: 'Fruited Blonde',
-      titleColor: '#fc5',
-      price: 6,
-      size: '12oz',
-      priceSmall: 5,
-      priceNormal: 6,
-      priceCrowler: 12,
-      priceGrowler: 19
-    },{
-      title: 'Pineapple Hopline Bling',
-      titleColor: '#ff5',
-      style: 'IPA',
-      price: 7,
-      size: '16oz',
-      priceSmall: 5,
-      priceNormal: 6,
-      priceCrowler: 12,
-      priceGrowler: 19
-    },{
-      title: 'G-Street',
-      titleColor: '#ffc',
-      style: 'American Blonde',
-      price: 6,
-      size: '12oz',
-      priceSmall: 5,
-      priceNormal: 6,
-      priceCrowler: 12,
-      priceGrowler: 19
-    },{
-      title: 'Advanced Darkness',
-      titleColor: '#e4a',
-      style: 'Porter',
-      price: 8,
-      size: '6oz',
-      priceSmall: 5,
-      priceNormal: 6,
-      priceCrowler: 12,
-      priceGrowler: 19
-    }]
-
-  </script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  
 
 </head>
 <body>
@@ -165,7 +18,8 @@
 
   <template id="beer-template">
     <div class="beer">
-      <img class='beer-glass beer-glass-pint' src="img/test.svg" />
+      <!-- <img class='beer-glass beer-glass-pint' src="img/test.svg" /> -->
+      <object class="pint-glass-icon" type="image/svg+xml" data="img/test.svg"></object> 
       <h1></h1>
       <h2></h2>
       <div class="price-wrapper">
@@ -186,67 +40,13 @@
 
   </div>
 
-  <object id="dynamic-svg" type="image/svg+xml" data="img/test.svg"></object>
-
   <img class='main-logo' src="img/logo.svg" />
 
-  <script>
-    const wrapper = document.getElementById("wrapper");
-
-    const getTemplate = () => document.getElementById('beer-template').content.cloneNode(true)
-
-    const fill = template => (query, value, color) => {
-      const el = template.querySelector(query)
-      el.innerText = value || ''
-      if (color) el.style.color = color
-    }
-
-    const renderTemplate = beer => {
-      const tmpl = getTemplate()
-      const templateFill = fill(tmpl)
-
-      templateFill('h1', beer.title, beer.titleColor)
-      templateFill('h2', beer.style)
-      templateFill('.price', beer.price)
-      //templateFill('.size', beer.size)
-
-      // templateFill('.price-small', beer.priceSmall)
-      // templateFill('.price-normal', beer.priceNormal)
-      // templateFill('.price-crowler', beer.priceCrowler)
-      // templateFill('.price-growler', beer.priceGrowler)
-
-      wrapper.appendChild(tmpl)
-    }
-    window.beers.forEach(renderTemplate);
+  
 
 
-
-/*
-    var svgHolder = document.querySelector('object');
-
-    const css = `
-<style type="text/css">
-  <![CDATA[
-    .beer-dark {
-      stop-color:#ff6500;
-    }
-    .beer-light {
-      stop-color:#fff800;
-    }
-  ]]>
-</style>`
-
-    svgHolder.onload = function () {
-        var svgDocument = svgHolder.contentDocument;
-        var style = svgDocument.createElementNS("http://www.w3.org/2000/svg", "style");
-
-        // Now (ab)use the @import directive to load make the browser load our css
-        style.textContent = css;
-
-        var svgElem = svgDocument.querySelector('svg');
-        svgElem.insertBefore(style, svgElem.firstChild);
-    };
-*/
-  </script>
+  <script type="module" src="src/index.js"></script>
 </body>
 </html>
+
+
