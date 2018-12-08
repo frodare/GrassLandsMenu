@@ -1,37 +1,70 @@
 <html>
 <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+
+
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Bungee+Inline' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
     <link href="index.css" rel="stylesheet" type="text/css" />
-
-    <script type="module" src="src/colorPintGlass.js"></script>
-    <script type="module" src="src/beerData.js"></script>
 </head>
 <body>
   <template id="beer-template">
     <div class="beer">
-      <object class="pint-glass-icon" type="image/svg+xml" data="img/pint.svg"></object> 
+
+      <object class="glass-icon glass-icon-pint hidden" type="image/svg+xml" data="img/pint.svg"></object>
+      <object class="glass-icon glass-icon-12oz hidden" type="image/svg+xml" data="img/12oz.svg"></object>
+      <object class="glass-icon glass-icon-10oz hidden" type="image/svg+xml" data="img/10oz.svg"></object>
+      <object class="glass-icon glass-icon-6oz hidden" type="image/svg+xml" data="img/6oz.svg"></object>
       <h1></h1>
+      <div class="description"></div>
       <h2></h2>
+
+      <div class="abv"></div>
+
       <div class="price-wrapper">
         <div class="price"></div>
         <div class="size"></div>
       </div>
       <div class="assorted-price-wrapper">
-          <div class="assorted-price price-small"></div>
-          <div class="assorted-price price-normal"></div>
-          <div class="assorted-price price-crowler"></div>
-          <div class="assorted-price price-growler"></div>
+        <div class="assorted-price price-10oz"></div>
+        <div class="assorted-price price-12oz"></div>
+        <div class="assorted-price price-16oz"></div>
+        <div class="assorted-price price-crowler"></div>
+        <div class="assorted-price price-growler"></div>
       </div>
     </div>
   </template>
 
   <div id="wrapper" class="wrapper"></div>
-
   <img class='main-logo' src="img/logo.svg" />
+
+  <div class="announce-section">
+
+    <div class="flights">
+
+        <p class="catch-line">Can’t decide on just one?</p>
+        <p>We have flights of 4 beers &ndash; <b>6oz each</b>!</p>
+
+        <object class="glass-icon glass-icon-1" type="image/svg+xml" data="img/6oz.svg"></object>
+        <object class="glass-icon glass-icon-2" type="image/svg+xml" data="img/6oz.svg"></object>
+        <object class="glass-icon glass-icon-3" type="image/svg+xml" data="img/6oz.svg"></object>
+        <object class="glass-icon glass-icon-4" type="image/svg+xml" data="img/6oz.svg"></object>
+        <div class="price-wrapper">
+          <div class="price">10</div>
+        </div>
+    </div>
+
+    <div class="taproom-notes">
+      <div>We have guest <b>ciders</b> available for $6</div>
+      <div>We also offer <b>red and white</b> wine on tap for $8</div>
+      <div>Happy Hour (Tues-Fri: 4pm to 6pm) $1 off all GrassLands pints!</div>
+    </div>
+
+  </div>
+
   <script type="module" src="src/index.js"></script>
 </body>
 </html>

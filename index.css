@@ -1,6 +1,7 @@
 body {
   margin: 30px;
   background: #000;
+  color: #fff;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -10,6 +11,7 @@ body {
   grid-gap: 10px;
   color: #444;
   font-size: 1.7vh;
+  height: 75vh;
 }
 
 .beer {
@@ -31,12 +33,6 @@ body {
   border-radius: 50%;
   background: #000;
   border: 2px solid #fff;
-
-
-  /*
-
-  text-align: center;
-  margin-top: 0.2em;*/
 }
 
 .price {
@@ -44,13 +40,13 @@ body {
   top: 0.1em;
   left: 0.25em;
   font-family: 'Shrikhand', cursive;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .price::before {
   content: '$';
   font-family: 'Quicksand', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 .size {
@@ -62,9 +58,9 @@ body {
   color: white;
 }
 
-object.pint-glass-icon {
+object.glass-icon {
   position: absolute;
-  top: 0.5em;
+  top: -0.25em;
   left: 1.2em;
   height: 5em;
 }
@@ -72,34 +68,181 @@ object.pint-glass-icon {
 .beer h1 {
   color: #eee;
   margin: 0;
-  font-size: 3em;
+  font-size: 2.25em;
   font-weight: normal;
   font-family: 'Fredericka the Great', cursive;
 }
 
 .beer h2 {
-  /* font-family: 'Bungee Inline', cursive;
-  font-family: 'Shrikhand', cursive; */
   color: #eee;
   margin: 0;
-  margin-top: -0.25em;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: normal;
+  display: inline;
+  vertical-align: top;
+}
+
+.abv {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 0.8em;
+  margin-top: 0.4em;
+  vertical-align: top;
+  color: #ffffce;
+}
+
+.abv::before {
+  content: 'ABV';
+  margin-right: 0.5em;
+}
+
+.abv::after {
+  content: '%';
+}
+
+.assorted-price-wrapper {
+  display: inline-block;
+  margin-top: 0.7em;
+}
+
+.assorted-price {
+  position: relative;
+  display: inline;
+  margin-left: 1.5rem;
+  font-size: 1.25em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.assorted-price::before {
+  content: '$';
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8em;
+}
+
+.assorted-price::after {
+  position: absolute;
+  top: -0.8rem;
+  left: -0.3rem;
+  font-size: 1rem;
+  color: #ccc;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.price-10oz::after {
+  content: '10oz';
+}
+
+.price-12oz::after {
+  content: '12oz';
+}
+
+.price-16oz::after {
+  content: '10oz';
+}
+
+.price-16oz::after {
+  content: '10oz';
+}
+
+.price-crowler::after {
+  content: 'crowler';
+}
+
+.price-growler::after {
+  content: 'growler';
+}
+
+.hidden {
+  display: none;
 }
 
 img.main-logo {
   position: fixed;
   bottom: 1em;
   left: 1em;
-  height: 15vh;
+  width: 25vw;
 }
 
-.assorted-price-wrapper {
-  position: absolute;
+.announce-section {
+  position: fixed;
   bottom: 0;
   right: 0;
+  width: 70vw;
+  height: 18vh;
 }
 
-.assorted-price {
-  display: inline;
+.flights {
+  position: absolute;
+  top: 2.4em;
+  left: 0;
+  padding-left: 10em;
+}
+
+.flights p {
+  font-size: 1.4em;
+  margin: 0.25em 0;
+}
+
+.flights .catch-line {
+  color: #ffffce;
+  font-size: 1.6em;
+}
+
+.flights .glass-icon {
+  position: relative;
+  position: absolute;
+  top: -1.5em;
+
+  height: 7em;
+  display: inline-block;
+}
+
+.flights .glass-icon-1 {
+  left: calc(1.48 * 3em);
+  top: calc(-1.5em + (0.15em * 3));
+  height: calc(7em - (0.22em * 3));
+}
+
+.flights .glass-icon-2 {
+  left: calc(1.48 * 2em);
+  top: calc(-1.5em + (0.15em * 2));
+  height: calc(7em - (0.22em * 2));
+}
+
+.flights .glass-icon-3 {
+  left: calc(1.48 * 1em);
+  top: calc(-1.5em + (0.15em * 1));
+  height: calc(7em - (0.22em * 1));
+}
+
+.flights .glass-icon-4 {
+  left: 0em;
+}
+
+.flights .price-wrapper {
+  top: 2.2em;
+  left: 0.05em;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.flights .price {
+  top: 0.25em;
+  left: 0.1em;
+}
+
+.taproom-notes {
+  position: absolute;
+  right: 3em;
+  top: 1em;
+  font-size: 1.25em;
+}
+
+.taproom-notes div {
+  margin-bottom: 0.5em;
+}
+
+.taproom-notes div b {
+  color: #ffffce;
+  font-size: 1.2em;
 }
