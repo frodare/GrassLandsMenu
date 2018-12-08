@@ -1,0 +1,24 @@
+{
+  "name": "grasslandsmenu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frodare/GrassLandsMenu.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frodare/GrassLandsMenu/issues"
+  },
+  "homepage": "https://github.com/frodare/GrassLandsMenu#readme"
+}
