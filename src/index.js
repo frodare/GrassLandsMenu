@@ -12,33 +12,15 @@ const fill = template => (query, value = '', color) => {
   if (color) el.style.color = color
 }
 
-
-/*
-
-font-family: 'Bungee Shade', cursive;
-font-family: 'Fredoka One', cursive;
-
-WebFont.load({
-          google: {
-                  families: ['Droid Sans', 'Droid Serif']
-          }
-});
-*/
-
 const uniq = a => Array.from(new Set(a))
 
 const loadFonts = beerData => {
-
   const fonts = uniq(beerData.map(e => e.font).filter(f => f))
-
-  console.log('fonts ', fonts)
-
   WebFont.load({
     google: {
       families: fonts
     }
   })
-
 }
 
 const removeClass = (e, className) => {
@@ -56,9 +38,9 @@ const renderTemplate = beer => {
 
   if (beer.font) tmpl.querySelector('h1').style.fontFamily = beer.font
 
-  templateFill('.price-10oz', beer.price10oz)
-  templateFill('.price-12oz', beer.price12oz)
-  templateFill('.price-16oz', beer.price16oz)
+  templateFill('.price-10oz', 0) //beer.price10oz)
+  templateFill('.price-12oz', 0) //beer.price12oz)
+  templateFill('.price-16oz', 0) //beer.price16oz)
   templateFill('.price-crowler', beer.priceCrowler)
   templateFill('.price-growler', beer.priceGrowler)
 
