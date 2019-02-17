@@ -16,7 +16,7 @@ export default [
   },{
     title: 'Papaya Don’t Preach',
     titleColor: '#ff5',
-    style: 'East-coast IPA w/Papaya',
+    style: 'Fruited American IPA',
     price: 6,
     size: '16oz',
     price10oz: 0,
@@ -28,10 +28,9 @@ export default [
     colorDark: '#fa0',
     abv: 6.5
   },{
-    title: 'G-Street',
+    title: 'TLH',
     titleColor: '#ffc',
-    font: 'Faster One',
-    style: 'American Blonde',
+    style: 'American Blonde Ale',
     description: '',
     price: 5,
     size: '16oz',
@@ -39,10 +38,10 @@ export default [
     price12oz: 4,
     price16oz: 5,
     priceCrowler: 10,
-    priceGrowler: 17,
+    priceGrowler: 22,
     colorLight: '#ff5',
     colorDark: '#fc5',
-    abv: 4.5
+    abv: 5
   },{
     title: 'Advanced Darkness',
     titleColor: '#e4a',
@@ -57,11 +56,11 @@ export default [
     priceGrowler: 19,
     colorLight: '#420',
     colorDark: '#2d0a00',
-    abv: 5.9
+    abv: 6.6
   },{
-    title: 'Fourth Orbit',
+    title: 'SESH',
     titleColor: '#fff',
-    style: 'Red Ale',
+    style: 'Session IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -72,7 +71,7 @@ export default [
     priceGrowler: 19,
     colorLight: '#f50',
     colorDark: '#c30',
-    abv: 5.5
+    abv: 4.7
   },{
     title: 'LeBron Jams',
     titleColor: '#fff',
@@ -88,22 +87,6 @@ export default [
     colorLight: '#ff5',
     colorDark: '#fc5',
     abv: 3.7
-  },{
-    title: 'Blonde Claude Van Damme',
-    titleColor: '#fff',
-    font: 'Metamorphous',
-    style: 'Belgian Blonde',
-    description: '',
-    price: 6,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
-    priceCrowler: 12,
-    priceGrowler: 19,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
-    abv: 6.9
   },{
     title: 'Firedrake Märzen',
     titleColor: '#fff',
@@ -136,25 +119,9 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-    title: 'SPACE RAPTOR: Hop Ascension',
+    title: 'Resilience',
     titleColor: '#fff',
-    font: 'Bungee Shade',
-    style: 'New England-style IPA',
-    description: '',
-    price: 7,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
-    priceCrowler: 14,
-    priceGrowler: 0,
-    colorLight: '#420',
-    colorDark: '#2d0a00',
-    abv: 7.5
-  },{
-    title: '152 Mile Friendship',
-    titleColor: '#f93',
-    style: 'Tangerine Belgian Pale Ale',
+    style: 'Piney IPA - Sierra Nevada Collab',
     description: '',
     price: 6,
     size: '16oz',
@@ -163,9 +130,24 @@ export default [
     price16oz: 6,
     priceCrowler: 12,
     priceGrowler: 19,
-    colorLight: '#fc5',
-    colorDark: '#f80',
-    abv: 6.1
+    colorLight: '#f50',
+    colorDark: '#c30',
+    abv: 6.7
+  },{
+    title: 'Blonde Claude Van Damme',
+    titleColor: '#fff',
+    style: 'Belgian Blonde w/citrus & clove',
+    description: '',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 6.9
   },{
     title: 'BOOMTOWN!',
     titleColor: '#4f4',
@@ -181,5 +163,20 @@ export default [
     colorLight: '#af0',
     colorDark: '#ff5',
     abv: 3.8
+  },{
+    title: 'SPACE RAPTOR: Hop Ascension',
+    titleColor: '#fff',
+    style: 'New England-style IPA',
+    description: '',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 14,
+    priceGrowler: 22,
+    colorLight: '#420',
+    colorDark: '#2d0a00',
+    abv: 7.5
   }
 ]
