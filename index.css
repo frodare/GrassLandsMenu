@@ -109,7 +109,7 @@ object.glass-icon {
   position: relative;
   display: inline;
   margin-left: 1.5rem;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   font-size: 1.25em;
   font-family: 'Shrikhand', cursive;
 }
