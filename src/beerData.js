@@ -26,7 +26,7 @@ export default [
     priceGrowler: 20,
     colorLight: '#ff5',
     colorDark: '#fa0',
-    abv: 6.5
+    abv: 7
   },{
     title: 'TLH',
     titleColor: '#4f4',
@@ -86,7 +86,7 @@ export default [
     priceGrowler: 0,
     colorLight: '#FF0080',
     colorDark: '#FE2E9A',
-    abv: 3.7
+    abv: 3.8
   },{
     title: 'Firedrake',
     titleColor: '#fff',
@@ -105,7 +105,7 @@ export default [
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
-    style: 'Donut Kingdom Stout w/cinnamon, coconut, vanilla',
+    style: 'Donut Kingdom Stout (cinnamon, coconut, vanilla)',
     description: '',
     price: 8,
     size: '10oz',
@@ -120,7 +120,7 @@ export default [
   },{
     title: 'Resilience',
     titleColor: '#fff',
-    style: 'Sierra Nevada Brewing Collaboration IPA',
+    style: 'Sierra Nevada Brewing Collab IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -165,7 +165,7 @@ export default [
   },{
     title: 'SPACE RAPTOR: Hop Ascension',
     titleColor: '#fff',
-    style: 'Hourglass Brewing Collaboration Hazy IPA',
+    style: 'Hourglass Collaboration Hazy IPA',
     description: '',
     price: 6,
     size: '16oz',
