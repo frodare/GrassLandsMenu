@@ -16,6 +16,7 @@ const uniq = a => Array.from(new Set(a))
 
 const loadFonts = beerData => {
   const fonts = uniq(beerData.map(e => e.font).filter(f => f))
+  if (!fonts || !fonts.length) return
   WebFont.load({
     google: {
       families: fonts
