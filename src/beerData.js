@@ -1,8 +1,8 @@
 export default [
   {
     title: 'Guava Gold',
-    style: 'Fruited Blonde',
-    titleColor: '#fc5',
+    style: 'Guava Puree-infused Blonde',
+    titleColor: '#4f4',
     price: 6,
     size: '16oz',
     price10oz: 0,
@@ -14,9 +14,9 @@ export default [
     colorDark: '#f80',
     abv: 4.5
   },{
-    title: 'Papaya Don’t Preach',
-    titleColor: '#ff5',
-    style: 'Fruited American IPA',
+    title: 'Hopline Bling!',
+    titleColor: '#4f4',
+    style: 'Juicy IPA that can only mean one thing',
     price: 6,
     size: '16oz',
     price10oz: 0,
@@ -29,8 +29,8 @@ export default [
     abv: 6.5
   },{
     title: 'TLH',
-    titleColor: '#ffc',
-    style: 'American Blonde Ale',
+    titleColor: '#4f4',
+    style: 'Tallahassee Callsign Blonde Ale',
     description: '',
     price: 5,
     size: '16oz',
@@ -44,8 +44,8 @@ export default [
     abv: 5
   },{
     title: 'Advanced Darkness',
-    titleColor: '#e4a',
-    style: 'Robust porter w/coffee & chocolate',
+    titleColor: '#4f4',
+    style: '2017 Gold Medal Robust Porter',
     description: '',
     price: 6,
     size: '16oz',
@@ -60,7 +60,7 @@ export default [
   },{
     title: 'SESH',
     titleColor: '#fff',
-    style: 'Session IPA',
+    style: 'Citrus-forward Session IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -73,9 +73,9 @@ export default [
     colorDark: '#c30',
     abv: 4.7
   },{
-    title: 'LeBron Jams',
+    title: 'LeBron JamZ',
     titleColor: '#fff',
-    style: 'Florida-style Berliner Weiss',
+    style: 'Blackberry/Raspberry-infused Sour',
     description: '',
     price: 6,
     size: '12oz',
@@ -84,13 +84,13 @@ export default [
     price16oz: 0,
     priceCrowler: 14,
     priceGrowler: 0,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
+    colorLight: '#FF0080',
+    colorDark: '#FE2E9A',
     abv: 3.7
   },{
-    title: 'Firedrake Märzen',
+    title: 'Firedrake',
     titleColor: '#fff',
-    style: 'Crisp, amber German lager',
+    style: 'Crisp, Amber German lager',
     description: '',
     price: 6,
     size: '16oz',
@@ -105,8 +105,7 @@ export default [
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
-    font: 'Fredoka One',
-    style: 'Imperial Stout w/cinnamon, coconut, vanilla',
+    style: 'Donut Kingdom Stout w/cinnamon, coconut, vanilla',
     description: '',
     price: 8,
     size: '10oz',
@@ -121,7 +120,7 @@ export default [
   },{
     title: 'Resilience',
     titleColor: '#fff',
-    style: 'Piney IPA - Sierra Nevada Collab',
+    style: 'Sierra Nevada Brewing Collaboration IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -136,7 +135,7 @@ export default [
   },{
     title: 'Blonde Claude Van Damme',
     titleColor: '#fff',
-    style: 'Belgian Blonde w/citrus & clove',
+    style: 'JCVD-approved Belgian Blonde Ale',
     description: '',
     price: 6,
     size: '16oz',
@@ -150,8 +149,8 @@ export default [
     abv: 6.9
   },{
     title: 'BOOMTOWN!',
-    titleColor: '#4f4',
-    style: 'Gose w/DILL PICKLES',
+    titleColor: '#fff',
+    style: '2016 Gold Medal Gose w/DILL PICKLES',
     description: '',
     price: 6,
     size: '12oz',
@@ -166,7 +165,7 @@ export default [
   },{
     title: 'SPACE RAPTOR: Hop Ascension',
     titleColor: '#fff',
-    style: 'New England-style IPA',
+    style: 'Hourglass Brewing Collaboration Hazy IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -175,8 +174,8 @@ export default [
     price16oz: 7,
     priceCrowler: 14,
     priceGrowler: 22,
-    colorLight: '#420',
-    colorDark: '#2d0a00',
+    colorLight: '#ff5',
+    colorDark: '##fa0',
     abv: 7.5
   }
 ]
