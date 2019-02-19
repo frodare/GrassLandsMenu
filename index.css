@@ -22,7 +22,7 @@ body {
 
 .price-wrapper {
   position: absolute;
-  top: 2em;
+  top: 2.8em;
   left: -1.15em;
   color: #fff;
 
@@ -60,7 +60,7 @@ body {
 
 object.glass-icon {
   position: absolute;
-  top: -0.25em;
+  top: 0.65em;
   left: 1.2em;
   height: 5em;
 }
@@ -68,7 +68,7 @@ object.glass-icon {
 .beer h1 {
   color: #eee;
   margin: 0;
-  font-size: 2.75em;
+  font-size: 3.2em;
   font-weight: normal;
   font-family: 'Amatic SC', cursive;
 }
