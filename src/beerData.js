@@ -133,21 +133,6 @@ export default [
     colorDark: '#c30',
     abv: 6.7
   },{
-    title: 'Blonde Claude Van Damme',
-    titleColor: '#fff',
-    style: 'JCVD-approved Belgian Blonde Ale',
-    description: '',
-    price: 6,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
-    priceCrowler: 12,
-    priceGrowler: 19,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
-    abv: 6.9
-  },{
     title: 'BOOMTOWN!',
     titleColor: '#fff',
     style: '2016 Gold Medal Gose w/DILL PICKLES',
