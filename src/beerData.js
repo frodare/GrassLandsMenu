@@ -167,7 +167,7 @@ export default [
     titleColor: '#fff',
     style: 'Hourglass Collaboration Hazy IPA',
     description: '',
-    price: 6,
+    price: 7,
     size: '16oz',
     price10oz: 0,
     price12oz: 6,
