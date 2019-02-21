@@ -16,7 +16,7 @@ export default [
   },{
     title: 'Hopline Bling!',
     titleColor: '#4f4',
-    style: 'Juicy IPA that can only mean one thing',
+    style: 'Juicy IPA that "can only mean one thing"',
     price: 6,
     size: '16oz',
     price10oz: 0,
@@ -45,7 +45,7 @@ export default [
   },{
     title: 'Advanced Darkness',
     titleColor: '#4f4',
-    style: '2017 Gold Medal Robust Porter',
+    style: '2017 <b>Gold Medal</b> Robust Porter',
     description: '',
     price: 6,
     size: '16oz',
@@ -90,7 +90,7 @@ export default [
   },{
     title: 'Firedrake',
     titleColor: '#fff',
-    style: 'Crisp, Amber German lager',
+    style: 'Crisp, Amber German-style Lager',
     description: '',
     price: 6,
     size: '16oz',
@@ -105,7 +105,7 @@ export default [
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
-    style: 'Donut Kingdom Stout (cinnamon/coconut/vanilla)',
+    style: '(<b>Donut Kingdom Collab</b>) Stout w/cinnamon, coconut & vanilla',
     description: '',
     price: 8,
     size: '10oz',
@@ -118,9 +118,9 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-    title: 'Resilience',
+    title: 'Resilience West Coast IPA',
     titleColor: '#fff',
-    style: '(Sierra Nevada) Collab IPA',
+    style: '(<b>Sierra Nevada</b>) Collab IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -135,7 +135,7 @@ export default [
   },{
     title: 'BOOMTOWN!',
     titleColor: '#fff',
-    style: '2016 Gold Medal Gose w/DILL PICKLES',
+    style: '2016 <b>Gold Medal</b> Gose w/DILL PICKLES',
     description: '',
     price: 6,
     size: '12oz',
@@ -150,7 +150,7 @@ export default [
   },{
     title: 'SPACE RAPTOR: Hop Ascension',
     titleColor: '#fff',
-    style: '(Hourglass Collab) Hazy IPA',
+    style: '(<b>Hourglass Brewing</b>) Collab Hazy IPA',
     description: '',
     price: 7,
     size: '16oz',
