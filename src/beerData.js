@@ -69,8 +69,8 @@ export default [
     price16oz: 6,
     priceCrowler: 12,
     priceGrowler: 19,
-    colorLight: '#f50',
-    colorDark: '#c30',
+    colorLight: '#FACC2E',
+    colorDark: '#FFBF00',
     abv: 4.7
   },{
     title: 'LeBron JamZ',
@@ -105,7 +105,7 @@ export default [
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
-    style: 'Donut Kingdom Stout (cinnamon, coconut, vanilla)',
+    style: 'Donut Kingdom Stout (cinnamon/coconut/vanilla)',
     description: '',
     price: 8,
     size: '10oz',
@@ -120,7 +120,7 @@ export default [
   },{
     title: 'Resilience',
     titleColor: '#fff',
-    style: 'Sierra Nevada Brewing Collab IPA',
+    style: '(Sierra Nevada) Collab IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -150,7 +150,7 @@ export default [
   },{
     title: 'SPACE RAPTOR: Hop Ascension',
     titleColor: '#fff',
-    style: 'Hourglass Collaboration Hazy IPA',
+    style: '(Hourglass Collab) Hazy IPA',
     description: '',
     price: 7,
     size: '16oz',
@@ -159,8 +159,8 @@ export default [
     price16oz: 7,
     priceCrowler: 14,
     priceGrowler: 22,
-    colorLight: '#ff5',
-    colorDark: '##fa0',
+    colorLight: '#FACC2E',
+    colorDark: '#FFBF00',
     abv: 7.5
   }
 ]
