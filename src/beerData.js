@@ -147,6 +147,21 @@ export default [
     colorLight: '#af0',
     colorDark: '#ff5',
     abv: 3.8
+    },{
+    title: '152 Mile Friendship',
+    titleColor: '#fff',
+    style: '(Cypress & Grove) Collab Tangerine Belgian Blonde',
+    description: '',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#DF7401',
+    colorDark: '#FF4000',
+    abv: 6.1
   },{
     title: 'SPACE RAPTOR: Hop Ascension',
     titleColor: '#fff',
