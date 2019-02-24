@@ -1,0 +1,8 @@
+.sender-button {
+  width: 30px;
+  cursor: pointer;
+}
+
+.sender-button:hover {
+  color: blue;
+}
