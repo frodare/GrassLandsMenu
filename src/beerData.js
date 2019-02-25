@@ -150,7 +150,7 @@ export default [
     },{
     title: '152 Mile Friendship',
     titleColor: '#fff',
-    style: '(Cypress & Grove) Collab Tangerine Belgian Blonde',
+    style: '(Cypress & Grove) Collab Tangerine Belgian Pale',
     description: '',
     price: 6,
     size: '16oz',
