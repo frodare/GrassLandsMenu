@@ -1,6 +1,7 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
@@ -9,16 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
 
-    <link href="index.css?v=1" rel="stylesheet" type="text/css" />
+    <link href="../index.css?v=1" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <template id="beer-template">
     <div class="beer">
 
-      <object class="glass-icon glass-icon-pint hidden" type="image/svg+xml" data="img/pint.svg"></object>
-      <object class="glass-icon glass-icon-12oz hidden" type="image/svg+xml" data="img/12oz.svg"></object>
-      <object class="glass-icon glass-icon-10oz hidden" type="image/svg+xml" data="img/10oz.svg"></object>
-      <object class="glass-icon glass-icon-6oz hidden" type="image/svg+xml" data="img/6oz.svg"></object>
+      <object class="glass-icon glass-icon-pint hidden" type="image/svg+xml" data="../img/pint.svg"></object>
+      <object class="glass-icon glass-icon-12oz hidden" type="image/svg+xml" data="../img/12oz.svg"></object>
+      <object class="glass-icon glass-icon-10oz hidden" type="image/svg+xml" data="../img/10oz.svg"></object>
+      <object class="glass-icon glass-icon-6oz hidden" type="image/svg+xml" data="../img/6oz.svg"></object>
       <h1></h1>
       <div class="description"></div>
       <h2></h2>
@@ -41,7 +42,7 @@
 
   <div id="wrapper" class="wrapper"></div>
 
-  <img class='main-logo' src="img/logo.svg" />
+  <img class='main-logo' src="../img/logo.svg" />
 
 
   <div class="flights">
@@ -49,10 +50,10 @@
       <p class="catch-line"><b>Can’t decide on just one?</b></p>
       <p>Try a flight of any 4 beers &ndash; <b>6oz each</b>!</p>
 
-      <object class="glass-icon glass-icon-1" type="image/svg+xml" data="img/6oz.svg"></object>
-      <object class="glass-icon glass-icon-2" type="image/svg+xml" data="img/6oz.svg"></object>
-      <object class="glass-icon glass-icon-3" type="image/svg+xml" data="img/6oz.svg"></object>
-      <object class="glass-icon glass-icon-4" type="image/svg+xml" data="img/6oz.svg"></object>
+      <object class="glass-icon glass-icon-1" type="image/svg+xml" data="../img/6oz.svg"></object>
+      <object class="glass-icon glass-icon-2" type="image/svg+xml" data="../img/6oz.svg"></object>
+      <object class="glass-icon glass-icon-3" type="image/svg+xml" data="../img/6oz.svg"></object>
+      <object class="glass-icon glass-icon-4" type="image/svg+xml" data="../img/6oz.svg"></object>
       <div class="price-wrapper">
         <div class="price">12</div>
       </div>
@@ -64,7 +65,10 @@
       <div><b>Happy Hour</b> (Tues-Fri: 4pm to 6pm) <b>$1 off all GrassLands pints!</b></div>
   </div>
 
-  <script type="module" src="src/index.js"></script>
+  <script type="module" src="../src/index.js"></script>
+  <script>
+    cast.framework.CastReceiverContext.getInstance().start();
+  </script>
 </body>
 </html>
 
