@@ -58,9 +58,9 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
   },{
-    title: 'SESH',
+    title: 'To the Goal!',
     titleColor: '#fff',
-    style: 'Citrus-forward Session IPA',
+    style: 'Tallahassee Soccer Session IPA',
     description: '',
     price: 6,
     size: '16oz',
@@ -71,9 +71,9 @@ export default [
     priceGrowler: 19,
     colorLight: '#FACC2E',
     colorDark: '#FFBF00',
-    abv: 4.7
+    abv: 4.6
   },{
-    title: 'LeBron JamZ',
+    title: 'LeBron Jamz',
     titleColor: '#fff',
     style: 'Blackberry/Raspberry-infused Sour',
     description: '',
