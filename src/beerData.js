@@ -88,20 +88,20 @@ export default [
     colorDark: '#FE2E9A',
     abv: 3.8
   },{
-    title: 'Firedrake',
+    title: 'Coffee Advanced Darkness',
     titleColor: '#fff',
-    style: 'Crisp, Amber German-style Lager',
+    style: 'Locally-roasted Coffee-infused Porter',
     description: '',
-    price: 6,
-    size: '16oz',
+    price: 7,
+    size: '12oz',
     price10oz: 0,
     price12oz: 5,
     price16oz: 6,
-    priceCrowler: 12,
-    priceGrowler: 19,
-    colorLight: '#b60',
-    colorDark: '#940',
-    abv: 5.9
+    priceCrowler: 16,
+    priceGrowler: 0,
+    colorLight: '#420',
+    colorDark: '#2d0a00',
+    abv: 6.6
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
