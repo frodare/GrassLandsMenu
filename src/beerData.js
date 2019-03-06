@@ -163,19 +163,19 @@ export default [
     colorDark: '#FF4000',
     abv: 6.1
   },{
-    title: 'SPACE RAPTOR: Hop Ascension',
+    title: 'Lethal Simplicity',
     titleColor: '#fff',
-    style: '(Hourglass Brewing) Collab Hazy IPA',
+    style: 'Double IPA',
     description: '',
     price: 7,
-    size: '16oz',
+    size: '12oz',
     price10oz: 0,
     price12oz: 6,
     price16oz: 7,
-    priceCrowler: 14,
-    priceGrowler: 22,
-    colorLight: '#FACC2E',
-    colorDark: '#FFBF00',
-    abv: 7.5
+    priceCrowler: 16,
+    priceGrowler: ,
+    colorLight: '#F5DA81',
+    colorDark: '#F7BE81',
+    abv: 8.5
   }
 ]
