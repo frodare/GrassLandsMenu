@@ -105,7 +105,7 @@ export default [
   },{
     title: 'Donut Disco',
     titleColor: '#fff',
-    style: '(Donut Kingdom) Collab Stout w/cinnamon, coconut & vanilla',
+    style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
     description: '',
     price: 8,
     size: '10oz',
@@ -165,7 +165,7 @@ export default [
   },{
     title: 'Lethal Simplicity',
     titleColor: '#fff',
-    style: 'Double IPA',
+    style: 'A Pretty Dang Dangerous Double IPA',
     description: '',
     price: 7,
     size: '12oz',
