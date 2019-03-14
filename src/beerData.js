@@ -132,21 +132,6 @@ export default [
     colorLight: '#f50',
     colorDark: '#c30',
     abv: 6.7
-  },{
-    title: 'BOOMTOWN!',
-    titleColor: '#fff',
-    style: '2016 Gold Medal Gose w/DILL PICKLES',
-    description: '',
-    price: 6,
-    size: '12oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 0,
-    priceCrowler: 14,
-    priceGrowler: 0,
-    colorLight: '#af0',
-    colorDark: '#ff5',
-    abv: 3.8
     },{
     title: '152 Mile Friendship',
     titleColor: '#fff',
