@@ -88,21 +88,6 @@ export default [
     colorDark: '#FE2E9A',
     abv: 3.8
   },{
-    title: 'Coffee Advanced Darkness',
-    titleColor: '#fff',
-    style: 'Locally-roasted Coffee-infused Porter',
-    description: '',
-    price: 7,
-    size: '12oz',
-    price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
-    priceCrowler: 16,
-    priceGrowler: 0,
-    colorLight: '#420',
-    colorDark: '#2d0a00',
-    abv: 6.6
-  },{
     title: 'Donut Disco',
     titleColor: '#fff',
     style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
