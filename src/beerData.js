@@ -58,6 +58,21 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
   },{
+      title: 'Firedrake',
+    titleColor: '#fff',
+    style: 'German Amber Lager',
+    description: '',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#DF7401',
+    colorDark: '#8A2908',
+    abv: 5.9
+  },{
     title: 'To the Goal!',
     titleColor: '#fff',
     style: 'Tallahassee Soccer Club Session IPA',
