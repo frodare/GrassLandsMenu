@@ -103,6 +103,21 @@ export default [
     colorDark: '#FE2E9A',
     abv: 3.8
   },{
+    title: 'Citrus Got Real',
+    titleColor: '#fff',
+    style: 'Tallahassee-sourced Meyer Lemon Sour',
+    description: '',
+    price: 6,
+    size: '12oz',
+    price10oz: 0,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 14,
+    priceGrowler: 0,
+    colorLight: '#FFFF00',
+    colorDark: '#AEB404',
+    abv: 3.5
+  },{
     title: 'Donut Disco',
     titleColor: '#fff',
     style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
