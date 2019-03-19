@@ -128,7 +128,7 @@ export default [
     price12oz: 0,
     price16oz: 0,
     priceCrowler: 20,
-    priceGrowler: 0,
+    priceGrowler: 30,
     colorLight: '#210',
     colorDark: '#100',
     abv: 10.2
@@ -163,19 +163,19 @@ export default [
     colorDark: '#FF4000',
     abv: 6.1
   },{
-    title: 'Lethal Simplicity',
+    title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
-    style: 'A Pretty Dang Dangerous Double IPA',
+    style: 'New England-style Juicy Pale Ale',
     description: '',
     price: 7,
-    size: '12oz',
+    size: '16oz',
     price10oz: 0,
     price12oz: 6,
     price16oz: 7,
-    priceCrowler: 16,
+    priceCrowler: 14,
     priceGrowler: 0,
     colorLight: '#F5DA81',
     colorDark: '#F7BE81',
-    abv: 8.5
+    abv: 5.3
   }
 ]
