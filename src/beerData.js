@@ -1,5 +1,19 @@
 export default [
   {
+    title: 'Guava Gold',
+    style: 'Guava Puree-infused Blonde',
+    titleColor: '#4f4',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#fc5',
+    colorDark: '#f80',
+    abv: 4.5
+  },{
     title: 'Hopline Bling!',
     titleColor: '#4f4',
     style: 'Juicy IPA that "can only mean one thing"',
@@ -44,20 +58,20 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
   },{
-      title: 'RVB',
+      title: 'Firedrake',
     titleColor: '#fff',
-    style: 'Raspberry Vanilla Brown',
+    style: 'German Amber Lager',
     description: '',
-    price: 5,
+    price: 6,
     size: '16oz',
     price10oz: 0,
-    price12oz: 4,
-    price16oz: 5,
-    priceCrowler: 10,
-    priceGrowler: 17,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
     colorLight: '#DF7401',
     colorDark: '#8A2908',
-    abv: 5.8
+    abv: 5.9
   },{
     title: 'To the Goal!',
     titleColor: '#fff',
