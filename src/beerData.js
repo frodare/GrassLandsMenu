@@ -51,12 +51,12 @@ export default [
     price: 5,
     size: '16oz',
     price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
+    price12oz: 4,
+    price16oz: 5,
     priceCrowler: 10,
     priceGrowler: 17,
-    colorLight: '#5F4C0B'
-    colorDark: '#3B170B',
+    colorLight: '#DF7401',
+    colorDark: '#8A2908',
     abv: 5.8
   },{
     title: 'To the Goal!',
