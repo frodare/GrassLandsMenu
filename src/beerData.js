@@ -1,19 +1,5 @@
 export default [
   {
-    title: 'Hopline Bling!',
-    titleColor: '#4f4',
-    style: 'Juicy IPA that "can only mean one thing"',
-    price: 6,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
-    priceCrowler: 14,
-    priceGrowler: 20,
-    colorLight: '#ff5',
-    colorDark: '#fa0',
-    abv: 7
-  },{
     title: 'TLH',
     titleColor: '#4f4',
     style: 'Tallahassee Callsign Blonde Ale',
@@ -44,7 +30,22 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
   },{
-      title: 'RVB',
+    title: 'Lethal Simplicity',
+    titleColor: '#fff',
+    style: 'Double IPA',
+    description: '',
+    price: 7,
+    size: '12oz',
+    price10oz: 0,
+    price12oz: 7,
+    price16oz: 0,
+    priceCrowler: 16,
+    priceGrowler: 0,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 8.5
+  },{
+    title: 'RVB',
     titleColor: '#fff',
     style: 'Raspberry Vanilla Brown',
     description: '',
