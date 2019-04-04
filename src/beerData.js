@@ -137,7 +137,7 @@ export default [
     },{
     title: 'GUEST TAP: Bobs Belgian Wit',
     titleColor: '#fff',
-    style: 'Wicked Barley Brewing Belgian Witbier',
+    style: 'Wicked Barley Brewing (Jax) Belgian Witbier',
     description: '',
     price: 7,
     size: '16oz',
