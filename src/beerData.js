@@ -135,20 +135,20 @@ export default [
     colorDark: '#c30',
     abv: 6.7
     },{
-    title: '152 Mile Friendship',
+    title: 'GUEST TAP: Bobs Belgian Wit',
     titleColor: '#fff',
-    style: '(Cypress & Grove) Collab Tangerine Belgian Pale',
+    style: 'Belgian Witbier',
     description: '',
-    price: 6,
+    price: 7,
     size: '16oz',
     price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
-    priceCrowler: 12,
-    priceGrowler: 19,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 0,
+    priceGrowler: 0,
     colorLight: '#DF7401',
     colorDark: '#FF4000',
-    abv: 6.1
+    abv: 5.5
   },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
