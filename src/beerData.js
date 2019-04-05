@@ -1,5 +1,19 @@
 export default [
   {
+    title: 'Guava Gold',
+    style: 'Guava Puree-infused Blonde',
+    titleColor: '#4f4',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#fc5',
+    colorDark: '#f80',
+    abv: 4.5
+  },{
     title: 'TLH',
     titleColor: '#4f4',
     style: 'Tallahassee Callsign Blonde Ale',
