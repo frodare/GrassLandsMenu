@@ -148,21 +148,6 @@ export default [
     colorLight: '#f50',
     colorDark: '#c30',
     abv: 6.7
-    },{
-    title: 'GUEST TAP: Bobs Belgian Wit',
-    titleColor: '#fff',
-    style: 'Wicked Barley Brewing (Jax) Belgian Witbier',
-    description: '',
-    price: 7,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
-    priceCrowler: 0,
-    priceGrowler: 0,
-    colorLight: '#DF7401',
-    colorDark: '#FF4000',
-    abv: 5.5
   },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
@@ -178,5 +163,20 @@ export default [
     colorLight: '#F5DA81',
     colorDark: '#F7BE81',
     abv: 5.3
+  },{
+    title: 'GUEST TAP: Bobs Belgian Wit',
+    titleColor: '#fff',
+    style: 'Wicked Barley Brewing (Jax) Belgian Witbier',
+    description: '',
+    price: 7,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 0,
+    priceGrowler: 0,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 5.5
   }
 ]
