@@ -14,21 +14,6 @@ export default [
     colorDark: '#f80',
     abv: 4.5
   },{
-    title: 'TLH',
-    titleColor: '#4f4',
-    style: 'Tallahassee Callsign Blonde Ale',
-    description: '',
-    price: 5,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 4,
-    price16oz: 5,
-    priceCrowler: 10,
-    priceGrowler: 16,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
-    abv: 5
-  },{
     title: 'Advanced Darkness',
     titleColor: '#4f4',
     style: '2017 Gold Medal Robust Porter',
@@ -43,6 +28,21 @@ export default [
     colorLight: '#420',
     colorDark: '#2d0a00',
     abv: 6.6
+  },{
+    title: 'TLH',
+    titleColor: '#4f4',
+    style: 'Tallahassee Callsign Blonde Ale',
+    description: '',
+    price: 5,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 4,
+    price16oz: 5,
+    priceCrowler: 10,
+    priceGrowler: 16,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 5
   },{
     title: 'Lethal Simplicity',
     titleColor: '#fff',
