@@ -44,20 +44,20 @@ export default [
     colorDark: '#fc5',
     abv: 5
   },{
-    title: 'Lethal Simplicity',
+    title: 'Papaya Dont Preach',
     titleColor: '#fff',
-    style: 'Double IPA',
+    style: 'Papaya IPA',
     description: '',
     price: 7,
-    size: '12oz',
+    size: '16oz',
     price10oz: 0,
-    price12oz: 7,
-    price16oz: 0,
-    priceCrowler: 16,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 14,
     priceGrowler: 0,
     colorLight: '#ff5',
     colorDark: '#fc5',
-    abv: 8.5
+    abv: 6.5
   },{
     title: 'RVB',
     titleColor: '#fff',
