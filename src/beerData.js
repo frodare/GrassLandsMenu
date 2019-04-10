@@ -175,8 +175,8 @@ export default [
     price16oz: 6,
     priceCrowler: 0,
     priceGrowler: 0,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
+    colorLight: '#FFBF00',
+    colorDark: '#DF7401',
     abv: 6.1
   }
 ]
