@@ -164,7 +164,7 @@ export default [
     colorDark: '#F7BE81',
     abv: 5.3
   },{
-    title: '152 Mile Friendship (Belgian Tangerine Pale Ale)',
+    title: '152 Mile Friendship Belgian Tangerine Pale',
     titleColor: '#fff',
     style: 'Cypress & Grove Brewing Collaboration',
     description: '',
