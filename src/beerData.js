@@ -164,19 +164,19 @@ export default [
     colorDark: '#F7BE81',
     abv: 5.3
   },{
-    title: 'GUEST TAP: Bobs Belgian Wit',
+    title: '152 Mile Friendship (Belgian Tangerine Pale Ale)',
     titleColor: '#fff',
-    style: 'Wicked Barley Brewing (Jax) Belgian Witbier',
+    style: 'Cypress & Grove Brewing Collaboration',
     description: '',
-    price: 7,
+    price: 6,
     size: '16oz',
     price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
+    price12oz: 5,
+    price16oz: 6,
     priceCrowler: 0,
     priceGrowler: 0,
     colorLight: '#ff5',
     colorDark: '#fc5',
-    abv: 5.5
+    abv: 6.1
   }
 ]
