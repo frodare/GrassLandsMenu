@@ -85,8 +85,8 @@ export default [
     price16oz: 0,
     priceCrowler: 20,
     priceGrowler: 0,
-    colorLight: '#FF4000',
-    colorDark: '#B40404',
+    colorLight: '#B43104',
+    colorDark: '#8A0808',
     abv: 8.9
   },{
     title: 'LeBron Jamz',
