@@ -134,7 +134,7 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-     title: 'Lucky Goat Coffee-Donut Disco',
+     title: 'Lucky Goat Coffee-infused Donut Disco',
     titleColor: '#fff',
     style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
     description: '',
