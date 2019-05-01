@@ -134,20 +134,20 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-    title: 'Resilience',
+     title: 'Lucky Goat Coffee-Donut Disco',
     titleColor: '#fff',
-    style: '(Sierra Nevada Brewing) Collab IPA',
+    style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
     description: '',
-    price: 6,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
-    priceCrowler: 12,
-    priceGrowler: 19,
-    colorLight: '#f50',
-    colorDark: '#c30',
-    abv: 6.7
+    price: 9,
+    size: '10oz',
+    price10oz: 8,
+    price12oz: 0,
+    price16oz: 0,
+    priceCrowler: 0,
+    priceGrowler: 0,
+    colorLight: '#210',
+    colorDark: '#100',
+    abv: 10.2
   },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
