@@ -44,8 +44,8 @@ export default [
     colorDark: '#fc5',
     abv: 5
   },{
-    title: 'Papaya Don't Preach',
-    titleColor: '#4f4',
+    title: 'Papaya Dont Preach',
+    titleColor: '#fff',
     style: 'Papaya IPA',
     description: '',
     price: 7,
