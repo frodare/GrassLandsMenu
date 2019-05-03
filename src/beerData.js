@@ -108,7 +108,7 @@ export default [
     titleColor: '#fff',
     style: 'Tallahassee-sourced Meyer Lemon Sour',
     description: '',
-    price: 6,
+    price: 5,
     size: '12oz',
     price10oz: 0,
     price12oz: 5,
