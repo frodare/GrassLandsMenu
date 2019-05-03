@@ -59,20 +59,20 @@ export default [
     colorDark: '#fc5',
     abv: 6.5
   },{
-    title: 'RVB',
+    title: 'To the Goal',
     titleColor: '#fff',
-    style: 'Raspberry Vanilla Brown',
+    style: 'Citrus Session IPA',
     description: '',
-    price: 5,
+    price: 6,
     size: '16oz',
     price10oz: 0,
-    price12oz: 4,
-    price16oz: 5,
-    priceCrowler: 10,
-    priceGrowler: 17,
-    colorLight: '#420',
-    colorDark: '#2d0a00',
-    abv: 5.8
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 10,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 4.7
   },{
     title: 'LeeRoy The Red',
     titleColor: '#fff',
@@ -102,7 +102,7 @@ export default [
     priceGrowler: 0,
     colorLight: '#FF0080',
     colorDark: '#FE2E9A',
-    abv: 3.8
+    abv: 3.5
   },{
     title: 'Citrus Got Real',
     titleColor: '#fff',
@@ -124,7 +124,7 @@ export default [
     style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
     description: '',
     price: 8,
-    size: '10oz',
+    size: '12oz',
     price10oz: 8,
     price12oz: 0,
     price16oz: 0,
@@ -139,7 +139,7 @@ export default [
     style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
     description: '',
     price: 9,
-    size: '10oz',
+    size: '12oz',
     price10oz: 8,
     price12oz: 0,
     price16oz: 0,
@@ -164,19 +164,19 @@ export default [
     colorDark: '#F7BE81',
     abv: 5.3
   },{
-    title: '152 Mile Friendship Belgian Tangerine Pale',
+    title: 'Lemon Cake',
     titleColor: '#fff',
-    style: 'Cypress & Grove Brewing Collaboration',
+    style: 'Wicked Barley Brewing Collaboration Sour',
     description: '',
-    price: 6,
-    size: '16oz',
+    price: 7,
+    size: '12oz',
     price10oz: 0,
-    price12oz: 5,
-    price16oz: 6,
+    price12oz: 7,
+    price16oz: 0,
     priceCrowler: 0,
     priceGrowler: 0,
-    colorLight: '#FFBF00',
-    colorDark: '#DF7401',
-    abv: 6.1
+    colorLight: '#F7F2E0',
+    colorDark: '#F5DA81',
+    abv: 4
   }
 ]
