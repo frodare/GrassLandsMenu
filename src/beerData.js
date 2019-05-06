@@ -61,7 +61,7 @@ export default [
   },{
     title: 'To the Goal',
     titleColor: '#fff',
-    style: 'Citrus Session IPA',
+    style: 'Tallahassee Soccer Club Citrus Session IPA',
     description: '',
     price: 6,
     size: '16oz',
