@@ -29,9 +29,9 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
   },{
-    title: 'Blood Orange TLH',
+    title: '4.0 GPA',
     titleColor: '#fff',
-    style: 'Tallahassee Callsign Blonde Ale',
+    style: 'Fresh from Tallahassee Grapefruit-squeezed Pale Ale',
     description: '',
     price: 6,
     size: '16oz',
@@ -42,7 +42,7 @@ export default [
     priceGrowler: 19,
     colorLight: '#ff5',
     colorDark: '#fc5',
-    abv: 5
+    abv: 5.3
   },{
     title: 'Papaya Dont Preach',
     titleColor: '#fff',
@@ -134,20 +134,20 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-     title: 'Lucky Goat Coffee-infused Donut Disco',
+    title: 'FLORIDA MAN-go',
     titleColor: '#fff',
-    style: '(Donut Kingdom) Stout w/cinnamon, coconut & vanilla',
+    style: 'Guava and Mango-infused Lactose Sour',
     description: '',
-    price: 9,
-    size: '10oz',
-    price10oz: 8,
-    price12oz: 0,
+    price: 7,
+    size: '12oz',
+    price10oz: 0,
+    price12oz: 7,
     price16oz: 0,
-    priceCrowler: 22,
+    priceCrowler: 16,
     priceGrowler: 0,
-    colorLight: '#210',
-    colorDark: '#100',
-    abv: 10.2
+    colorLight: '#fc5',
+    colorDark: '#f80',
+    abv: 3.5
   },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
