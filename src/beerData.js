@@ -31,7 +31,7 @@ export default [
   },{
     title: '4.0 GPA',
     titleColor: '#fff',
-    style: 'Fresh from Tallahassee Grapefruit-squeezed Pale Ale',
+    style: 'Local-grown Grapefruit Pale Ale',
     description: '',
     price: 6,
     size: '16oz',
