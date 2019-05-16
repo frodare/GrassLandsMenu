@@ -59,9 +59,9 @@ export default [
     colorDark: '#fc5',
     abv: 6.5
   },{
-    title: 'To the Goal',
+    title: 'To the Goal!',
     titleColor: '#fff',
-    style: 'Tallahassee Soccer Club Citrus Session IPA - CANS AVAILABLE!',
+    style: 'TLH Soccer Club Session IPA (CANS AVAILABLE!)',
     description: '',
     price: 6,
     size: '16oz',
@@ -69,7 +69,7 @@ export default [
     price12oz: 5,
     price16oz: 6,
     priceCrowler: 12,
-    priceGrowler: 10,
+    priceGrowler: 19,
     colorLight: '#ff5',
     colorDark: '#fc5',
     abv: 4.2
