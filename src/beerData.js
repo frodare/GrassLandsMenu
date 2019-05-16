@@ -72,7 +72,7 @@ export default [
     priceGrowler: 10,
     colorLight: '#ff5',
     colorDark: '#fc5',
-    abv: 4.7
+    abv: 4.2
   },{
     title: 'LeeRoy The Red',
     titleColor: '#fff',
