@@ -44,21 +44,7 @@ export default [
     colorDark: '#fc5',
     abv: 5.3
   },{
-    title: 'Papaya Dont Preach',
-    titleColor: '#fff',
-    style: 'Papaya IPA',
-    description: '',
-    price: 7,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
-    priceCrowler: 14,
-    priceGrowler: 0,
-    colorLight: '#ff5',
-    colorDark: '#fc5',
-    abv: 6.5
-  },{
+    
     title: 'To the Goal!',
     titleColor: '#fff',
     style: 'TLH Soccer Club Session IPA (CANS AVAILABLE!)',
@@ -74,16 +60,16 @@ export default [
     colorDark: '#fc5',
     abv: 4.2
   },{
-    title: 'LeeRoy The Red',
+    title: 'Maple Cinnamon LeeRoy The Red',
     titleColor: '#fff',
     style: 'American Barleywine',
     description: '',
-    price: 8,
+    price: 9,
     size: '10oz',
     price10oz: 8,
     price12oz: 0,
     price16oz: 0,
-    priceCrowler: 20,
+    priceCrowler: 22,
     priceGrowler: 0,
     colorLight: '#B43104',
     colorDark: '#8A0808',
