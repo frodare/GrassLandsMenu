@@ -31,7 +31,7 @@ export default [
      },{
     title: 'TLH Blonde',
     titleColor: '#4f4',
-    style: 'Tallahassee Callsign Blonde Ale',
+    style: 'Light. Crisp. Refreshing.',
     description: '',
     price: 5,
     size: '16oz',
