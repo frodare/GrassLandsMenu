@@ -28,6 +28,21 @@ export default [
     colorLight: '#420',
     colorDark: '#2d0a00',
     abv: 6.6
+     },{
+    title: 'TLH Blonde',
+    titleColor: '#4f4',
+    style: 'Tallahassee Callsign Blonde Ale',
+    description: '',
+    price: 5,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 4,
+    price16oz: 5,
+    priceCrowler: 10,
+    priceGrowler: 17,
+    colorLight: '#ff5',
+    colorDark: '#fc5',
+    abv: 5.3
   },{
     title: '4.0 GPA',
     titleColor: '#fff',
