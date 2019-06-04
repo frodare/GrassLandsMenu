@@ -29,6 +29,21 @@ export default [
     colorDark: '#2d0a00',
     abv: 6.6
      },{
+    title: 'Hopline Bling American IPA',
+    titleColor: '#4f4',
+    style: 'It can only mean one thing...',
+    description: '',
+    price: 6,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 5,
+    price16oz: 6,
+    priceCrowler: 12,
+    priceGrowler: 19,
+    colorLight: '#FACC2E',
+    colorDark: '#B45F04',
+    abv: 6.5
+    },{ 
     title: 'TLH Blonde',
     titleColor: '#4f4',
     style: 'Light. Crisp. Refreshing.',
@@ -74,21 +89,6 @@ export default [
     colorLight: '#ff5',
     colorDark: '#fc5',
     abv: 4.2
-  },{
-    title: 'Maple Cinnamon LeeRoy The Red',
-    titleColor: '#fff',
-    style: 'American Barleywine',
-    description: '',
-    price: 9,
-    size: '10oz',
-    price10oz: 8,
-    price12oz: 0,
-    price16oz: 0,
-    priceCrowler: 22,
-    priceGrowler: 0,
-    colorLight: '#B43104',
-    colorDark: '#8A0808',
-    abv: 8.9
   },{
     title: 'LeBron Jamz',
     titleColor: '#fff',
