@@ -160,8 +160,8 @@ export default [
     price16oz: 7,
     priceCrowler: 14,
     priceGrowler: 0,
-    colorLight: '#FF0080',
-    colorDark: '#8A0868',
+    colorLight: '#8A0829',
+    colorDark: '#2A0A29',
     abv: 3.5
   },{
     title: 'Captain Dragon Berry',
