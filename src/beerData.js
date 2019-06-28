@@ -74,7 +74,6 @@ export default [
     colorDark: '#fc5',
     abv: 5.3
   },{
-    
     title: 'To the Goal!',
     titleColor: '#fff',
     style: 'TLH Soccer Club Session IPA (CANS AVAILABLE!)',
@@ -135,36 +134,6 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-    title: 'FLORIDA MAN-go',
-    titleColor: '#fff',
-    style: 'Guava and Mango-infused Lactose Sour',
-    description: '',
-    price: 7,
-    size: '12oz',
-    price10oz: 0,
-    price12oz: 7,
-    price16oz: 0,
-    priceCrowler: 16,
-    priceGrowler: 0,
-    colorLight: '#fc5',
-    colorDark: '#f80',
-    abv: 3.5
-  },{
-    title: 'Sir Douglas Juicifer',
-    titleColor: '#fff',
-    style: 'New England-style Juicy Pale Ale',
-    description: '',
-    price: 7,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 6,
-    price16oz: 7,
-    priceCrowler: 14,
-    priceGrowler: 0,
-    colorLight: '#F5DA81',
-    colorDark: '#F7BE81',
-    abv: 5.3
-  },{
     title: 'Lemon Cake',
     titleColor: '#fff',
     style: 'Wicked Barley Brewing Collaboration Lactose Sour',
@@ -179,5 +148,35 @@ export default [
     colorLight: '#F7F2E0',
     colorDark: '#F5DA81',
     abv: 4
+  },{
+    title: 'Dr. Currant',
+    titleColor: '#fff',
+    style: 'INFINITYCON Black Currant-infused Sour',
+    description: '',
+    price: 7,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 14,
+    priceGrowler: 0,
+    colorLight: '#FF0080',
+    colorDark: '#8A0868',
+    abv: 3.5
+  },{
+    title: 'Captain Dragon Berry',
+    titleColor: '#fff',
+    style: 'INFINITYCON Blueberry/Pomegrantate-infused Sour',
+    description: '',
+    price: 7,
+    size: '16oz',
+    price10oz: 0,
+    price12oz: 6,
+    price16oz: 7,
+    priceCrowler: 14,
+    priceGrowler: 0,
+    colorLight: '#F7819F',
+    colorDark:  '#FF0080',
+    abv: 3.5
   }
 ]
