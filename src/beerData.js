@@ -144,7 +144,7 @@ export default [
     price12oz: 0,
     price16oz: 5,
     priceCrowler: 14,
-    priceGrowler: 0,
+    priceGrowler: 22,
     colorLight: '#FF9C33',
     colorDark: '#D88834',
     abv: 5.2
