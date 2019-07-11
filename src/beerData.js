@@ -134,20 +134,20 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-    title: 'Lemon Cake',
+    title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
-    style: 'Wicked Barley Brewing Collaboration Lactose Sour',
+    style: 'Hazy Pale Ale',
     description: '',
     price: 5,
-    size: '12oz',
+    size: '16oz',
     price10oz: 0,
-    price12oz: 5,
-    price16oz: 0,
+    price12oz: 0,
+    price16oz: 5,
     priceCrowler: 16,
     priceGrowler: 0,
-    colorLight: '#F7F2E0',
-    colorDark: '#F5DA81',
-    abv: 4
+    colorLight: '#FF9C33',
+    colorDark: '#D88834',
+    abv: 5.2
   },{
     title: 'Dr. Currant',
     titleColor: '#fff',
