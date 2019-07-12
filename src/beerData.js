@@ -89,9 +89,9 @@ export default [
     colorDark: '#fc5',
     abv: 4.2
   },{
-    title: 'LeBron Jamz',
+    title: 'Florida MAN-go',
     titleColor: '#fff',
-    style: 'Blackberry/Raspberry-infused Sour',
+    style: 'Mango-infused Lactose Sour',
     description: '',
     price: 5,
     size: '12oz',
@@ -100,8 +100,8 @@ export default [
     price16oz: 0,
     priceCrowler: 14,
     priceGrowler: 0,
-    colorLight: '#FF0080',
-    colorDark: '#FE2E9A',
+    colorLight: '#fc5',
+    colorDark: '#f80',
     abv: 3.5
   },{
     title: 'Citrus Got Real',
