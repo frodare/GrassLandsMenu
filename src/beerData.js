@@ -120,7 +120,7 @@ export default [
     abv: 10.2
   },{
      title: 'Coffee Donut Disco',
-    titleColor: '#4f4',
+    titleColor: '#fff',
     style: 'Lucky Goat-infused Imperial Stout',
     description: '',
     price: 5,
