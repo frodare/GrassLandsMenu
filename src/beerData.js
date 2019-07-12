@@ -14,21 +14,6 @@ export default [
     colorDark: '#f80',
     abv: 4.5
   },{
-    title: 'Advanced Darkness',
-    titleColor: '#4f4',
-    style: '2017 Gold Medal Robust Porter',
-    description: '',
-    price: 5,
-    size: '16oz',
-    price10oz: 0,
-    price12oz: 4,
-    price16oz: 5,
-    priceCrowler: 12,
-    priceGrowler: 19,
-    colorLight: '#420',
-    colorDark: '#2d0a00',
-    abv: 6.6
-     },{
     title: 'Hopline Bling American IPA',
     titleColor: '#4f4',
     style: 'It can only mean one thing...',
@@ -134,6 +119,21 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
+     title: 'Coffee Donut Disco',
+    titleColor: '#4f4',
+    style: 'Lucky Goat-infused Imperial Stout',
+    description: '',
+    price: 5,
+    size: '10z',
+    price10oz: 5,
+    price12oz: 0,
+    price16oz: 0,
+    priceCrowler: 22,
+    priceGrowler: 30,
+    colorLight: '#210',
+    colorDark: '#100',
+    abv: 10.2
+     },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
     style: 'Hazy Pale Ale with mango aroma',
