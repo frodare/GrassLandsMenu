@@ -119,21 +119,6 @@ export default [
     colorDark: '#100',
     abv: 10.2
   },{
-     title: 'Maple Cinnamon LeeRoy the Red',
-    titleColor: '#fff',
-    style: 'Spiced Barleywine',
-    description: '',
-    price: 4,
-    size: '10z',
-    price10oz: 4,
-    price12oz: 0,
-    price16oz: 0,
-    priceCrowler: 22,
-    priceGrowler: 30,
-    colorLight: '#FF0000',
-    colorDark: '#610B0B',
-    abv: 9
-     },{
     title: 'Sir Douglas Juicifer',
     titleColor: '#fff',
     style: 'Hazy Pale Ale with mango aroma',
